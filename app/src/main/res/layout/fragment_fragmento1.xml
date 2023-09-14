@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C8F9F"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Fragmento1">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eu sou o fragmento 1"
+        android:textSize="12pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/countxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="COUNT" />
+
+    <Button
+        android:id="@+id/helloxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Hello Activity" />
+</LinearLayout>
